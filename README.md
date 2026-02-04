@@ -1,3 +1,21 @@
+Hey Everyone,
+
+The original developer is taking a hiatus from this module, so in the meantime I'm using the word-salad-slop factory known as A.I. to keep it at least working (mostly) with v13+ FoundryVTT.
+
+We'll see if we can at least keep it running for the time being.
+
+Please give props where props are actually due to the original dev.
+
+Best,
+Ottoloot 
+
+
+
+
+----
+
+
+
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/staebchenfisch)
 
 ## Beware of bugs in v12 and onward
