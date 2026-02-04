@@ -74,14 +74,14 @@
       {
         "id": "socketlib",
         "type": "module",
-        "manifest": "https://raw.githubusercontent.com/ottoloot/foundryvtt-socketlib/master/module.json"
+        "manifest": "https://raw.githubusercontent.com/ottoloot/foundryvtt-drag-ruler-v13/develop/module.json"
       }
     ]
   },
   "socket": true,
-  "url": "https://github.com/ottoloot/foundryvtt-drag-ruler",
-  "download": "https://github.com/ottoloot/foundryvtt-drag-ruler/archive/v2.0.0.zip",
-  "manifest": "https://raw.githubusercontent.com/ottoloot/foundryvtt-drag-ruler/master/module.json",
+  "manifest": "https://raw.githubusercontent.com/ottoloot/foundryvtt-drag-ruler-v13/develop/module.json",
+  "download": "https://github.com/ottoloot/foundryvtt-drag-ruler-v13/archive/refs/tags/v2.0.0.zip",
+  "url": "https://github.com/ottoloot/foundryvtt-drag-ruler-v13",
   "readme": "https://github.com/ottoloot/foundryvtt-drag-ruler/blob/master/README.md",
   "changelog": "https://github.com/ottoloot/foundryvtt-drag-ruler/blob/master/CHANGELOG.md",
   "bugs": "https://github.com/ottoloot/foundryvtt-drag-ruler/issues",
