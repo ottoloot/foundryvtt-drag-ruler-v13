@@ -74,7 +74,7 @@
       {
         "id": "socketlib",
         "type": "module",
-        "manifest": "https://github.com/ottoloot/foundryvtt-drag-ruler-v13/releases/latest/download/module.json""
+        "manifest": "https://github.com/ottoloot/foundryvtt-drag-ruler-v13/releases/latest/download/module.json"
       }
     ]
   },
