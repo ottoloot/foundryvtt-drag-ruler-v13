@@ -1,6 +1,8 @@
 # Drag Ruler
 
-This is a **Foundry VTT v13** port of the classic *Drag Ruler* idea.
+This is a **Foundry VTT v13** port of the amazing *Drag Ruler* module. Please give props where props is due to the original developer.
+
+I am using word-salad-slop factory AI tools to keep this working with version 13+ of FoundryVTT. 
 
 Instead of replacing Foundry's ruler or token dragging workflow, this version keeps **Foundry v13's native Token Drag Measurement** and only changes the **visual styling** (segment colors / grid highlights) so you get Drag-Ruler-style color bands:
 
@@ -8,10 +10,9 @@ Instead of replacing Foundry's ruler or token dragging workflow, this version ke
 - **Dash / 2nd action ring** (ring 2, optional)
 - **Unreachable**
 
-This is the same approach used in the minimal working `drag-ruler-v13` zip you provided—it's stable in v13 because it doesn't depend on the older `Token._onDragLeft*` hooks or the pre-v13 custom ruler implementation.
-
 ## Compatibility
 - Designed for **Foundry VTT v13** (tested against build **13.351**).
+- No legaccy support, only Version 13+.
 
 ## Settings
 Configure Settings → Module Settings → **Drag Ruler (v13 Overlay)**
