@@ -1,25 +1,23 @@
 {
   "id": "drag-ruler",
-  "title": "Drag Ruler",
-  "description": "Adds Drag-Ruler style color bands to Foundry VTT v13 Token Drag Measurement without replacing the core Ruler.",
-  "version": "13.0.0",
+  "title": "Drag Ruler v13+",
+  "description": "When dragging a token displays a ruler showing how far you've moved that token.",
+  "version": "2.0.0",
   "compatibility": {
     "minimum": "13",
-    "verified": "13.351"
+    "verified": "13"
   },
   "authors": [
     {
       "name": "Manuel Vögele",
       "email": "develop@manuel-voegele.de",
       "discord": "stabchenfisch"
-    },
-    {
-      "name": "Felix Funky (v13 port)"
     }
   ],
   "esmodules": [
     "src/libwrapper_shim.js",
-    "src/main.js"
+    "src/main.js",
+    "src/socket.js"
   ],
   "templates": [
     "templates/speed_provider_settings.html"
@@ -71,7 +69,21 @@
       "path": "lang/pt_BR.json"
     }
   ],
-  "url": "https://github.com/ottoloot/foundryvtt-drag-ruler-v13",
-  "bugs": "https://github.com/ottoloot/foundryvtt-drag-ruler-v13/issues",
+  "relationships": {
+    "requires": [
+      {
+        "id": "socketlib",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/ottoloot/foundryvtt-socketlib/master/module.json"
+      }
+    ]
+  },
+  "socket": true,
+  "url": "https://github.com/ottoloot/foundryvtt-drag-ruler",
+  "download": "https://github.com/ottoloot/foundryvtt-drag-ruler/archive/v2.0.0.zip",
+  "manifest": "https://raw.githubusercontent.com/ottoloot/foundryvtt-drag-ruler/master/module.json",
+  "readme": "https://github.com/ottoloot/foundryvtt-drag-ruler/blob/master/README.md",
+  "changelog": "https://github.com/ottoloot/foundryvtt-drag-ruler/blob/master/CHANGELOG.md",
+  "bugs": "https://github.com/ottoloot/foundryvtt-drag-ruler/issues",
   "allowBugReporter": true
 }
