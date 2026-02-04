@@ -1,0 +1,77 @@
+{
+  "id": "drag-ruler",
+  "title": "Drag Ruler",
+  "description": "Adds Drag-Ruler style color bands to Foundry VTT v13 Token Drag Measurement without replacing the core Ruler.",
+  "version": "13.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13.351"
+  },
+  "authors": [
+    {
+      "name": "Manuel Vögele",
+      "email": "develop@manuel-voegele.de",
+      "discord": "stabchenfisch"
+    },
+    {
+      "name": "Felix Funky (v13 port)"
+    }
+  ],
+  "esmodules": [
+    "src/libwrapper_shim.js",
+    "src/main.js"
+  ],
+  "templates": [
+    "templates/speed_provider_settings.html"
+  ],
+  "languages": [
+    {
+      "lang": "de",
+      "name": "Deutsch",
+      "path": "lang/de.json"
+    },
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "es",
+      "name": "Español",
+      "path": "lang/es.json"
+    },
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "lang/fr.json"
+    },
+    {
+      "lang": "ja",
+      "name": "日本語",
+      "path": "lang/ja.json"
+    },
+    {
+      "lang": "ko",
+      "name": "한국어",
+      "path": "lang/ko.json"
+    },
+    {
+      "lang": "zh-tw",
+      "name": "正體中文",
+      "path": "lang/zh-tw.json"
+    },
+    {
+      "lang": "cn",
+      "name": "中文（简体）",
+      "path": "lang/zh_Hans.json"
+    },
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "lang/pt_BR.json"
+    }
+  ],
+  "url": "https://github.com/manuelVo/foundryvtt-drag-ruler",
+  "bugs": "https://github.com/manuelVo/foundryvtt-drag-ruler/issues",
+  "allowBugReporter": true
+}
