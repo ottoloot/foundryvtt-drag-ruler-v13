@@ -74,16 +74,16 @@
       {
         "id": "socketlib",
         "type": "module",
-        "manifest": "https://github.com/ottoloot/foundryvtt-drag-ruler-v13/releases/latest/download/module.json"
+        "manifest": "https://raw.githubusercontent.com/ottoloot/foundryvtt-socketlib/master/module.json"
       }
     ]
   },
   "socket": true,
-  "manifest": "https://github.com/ottoloot/foundryvtt-drag-ruler-v13/releases/latest/download/module.json"",
-  "download": "https://github.com/ottoloot/foundryvtt-drag-ruler-v13/archive/refs/tags/v2.0.0.zip",
   "url": "https://github.com/ottoloot/foundryvtt-drag-ruler-v13",
-  "readme": "https://github.com/ottoloot/foundryvtt-drag-ruler/blob/master/README.md",
-  "changelog": "https://github.com/ottoloot/foundryvtt-drag-ruler/blob/master/CHANGELOG.md",
-  "bugs": "https://github.com/ottoloot/foundryvtt-drag-ruler/issues",
+  "download": "https://github.com/ottoloot/foundryvtt-drag-ruler-v13/releases/download/v2.0.0/drag-ruler-v2.0.0.zip",
+  "manifest": "https://raw.githubusercontent.com/ottoloot/foundryvtt-drag-ruler-v13/develop/module.json",
+  "readme": "https://github.com/ottoloot/foundryvtt-drag-ruler-v13/blob/develop/README.md",
+  "changelog": "https://github.com/ottoloot/foundryvtt-drag-ruler-v13/blob/develop/CHANGELOG.md",
+  "bugs": "https://github.com/ottoloot/foundryvtt-drag-ruler-v13/issues",
   "allowBugReporter": true
 }
