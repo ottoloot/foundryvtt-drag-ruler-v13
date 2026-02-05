@@ -80,7 +80,7 @@
   },
   "socket": true,
   "url": "https://github.com/ottoloot/foundryvtt-drag-ruler-v13",
-  "download": "https://github.com/ottoloot/foundryvtt-drag-ruler-v13/releases/download/v2.0.0/v2.0.0.zip",
+  "download": "https://github.com/ottoloot/foundryvtt-drag-ruler-v13/archive/refs/tags/v2.0.0.zip",
   "manifest": "https://raw.githubusercontent.com/ottoloot/foundryvtt-drag-ruler-v13/develop/module.json",
   "readme": "https://github.com/ottoloot/foundryvtt-drag-ruler-v13/blob/develop/README.md",
   "changelog": "https://github.com/ottoloot/foundryvtt-drag-ruler-v13/blob/develop/CHANGELOG.md",
