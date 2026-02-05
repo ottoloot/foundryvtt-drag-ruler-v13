@@ -45,7 +45,7 @@ export function registerSettings() {
 		scope: "world",
 		config: true,
 		type: String,
-		default: "#00ff00",
+		default: "#3ac255",
 	});
 
 	game.settings.register(settingsKey, "dashColor", {
@@ -53,7 +53,7 @@ export function registerSettings() {
 		scope: "world",
 		config: true,
 		type: String,
-		default: "#ffff00",
+		default: "#c2a03a",
 	});
 
 	game.settings.register(settingsKey, "unreachableColor", {
@@ -61,7 +61,7 @@ export function registerSettings() {
 		scope: "world",
 		config: true,
 		type: String,
-		default: "#ff0000",
+		default: "#c2493a",
 	});
 
 	// Used when measuring with the Measure tool and no token is associated.
